@@ -1,0 +1,19 @@
+{
+  "name": "product-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build:scss": "sass src/scss/main.scss:dist/assets/css/style.css",
+    "watch:scss": "sass src/scss/main.scss:dist/assets/css/style.css --watch",
+    "build": "npm run build:scss && eleventy",
+    "serve": "npm run watch:scss & eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "sass": "^1.79.3"
+  }
+}
